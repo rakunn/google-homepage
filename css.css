@@ -1,0 +1,98 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	overflow: hidden;
+}
+
+.header, .footer, .viewport {
+	width: 100%;
+}
+
+.header {
+	margin-top:5px;
+	height: 5%;
+	background-color: white;
+}
+
+.header ul {
+	margin-top: 0.6em;
+	margin-right:1em;
+  float: right;
+}
+
+#login {
+	width:4em;
+	height:2em;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	position: relative;
+	bottom: 0.6em;
+	padding: 0.6em 2em 0em 2em;
+}
+
+#login:hover {
+
+}
+
+.header li, .footer li {
+	display: inline-block;
+  float: left;
+ 	padding: 0 1em 0 1em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	font-size: 14px;
+}
+
+i {
+		margin-top: -0.15em;
+}
+
+.viewport {
+	text-align: center;
+	height: 67%;
+	margin-top: 10%;
+}
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#txt {
+	width: 30em;
+	height: 1.5em;
+	margin: 5px;
+}
+
+.buttonz {
+	width: 10em;
+	height: 3em;
+	margin: 0.5em 4em 0em 4em;
+}
+
+.footer {
+	height: 6%;
+	background-color: rgb(233,233,233);
+ }
+
+.footer .ul1 {
+	float: left;
+}
+
+.footer .ul2 {
+	float: right;
+	overflow:hidden;
+}
+
+.header li:hover, .footer li:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+#login:hover {
+	background-color: midnightblue;
+}
+
